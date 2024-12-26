@@ -9,9 +9,9 @@ import base64
 import user_agent
 from getuseragent import UserAgent
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-photo_url = 'https://t.me/HOUDA_JUST_ONE/11'
-admin = 5090978662
-token = "6715013101:AAGSgYt-fkFIjD827Crdk58dTREd-uuPtng"
+photo_url = 'https://t.me/Borsavccclog'
+admin = 5983644996
+token = "7524721147:AAGMkCxTNQ1Us5I-7VD6dPW-LGMopLQqmL8"
 bot=telebot.TeleBot(token,parse_mode="HTML")
 @bot.message_handler(commands=["start"])
 def start(message):
